@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--Stylesheet-->
+    <link rel="stylesheet" href="./bmi.css" />
+    <title>BMI Calculator</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h2>BMI Calculator</h2>
+            <form action="/" id="form" novalidate>
+                <div class="input-control">
+                    <input type="number" placeholder="Enter your weight in kilograms" id="weight">
+                    <p class="info"></p>
+                </div>
+                <div class="input-control">
+                    <input type="number" placeholder="Enter your height in centimeters" id="height">
+                    <p class="info"></p>
+                </div>
+                <button id="form-submit">submit</button>
+            </form>
+
+            <!--Result Wrapper-->
+            <div class="result-container"></div>
+            <div class="result-container"></div>
+            <div class="result-container"></div>
+            <div class="result-container"></div>
+            <div class="result-container"></div>
+        </div>
+    </div>
+
+    <script src="./bmi.js"></script>
+</body>
+</html>

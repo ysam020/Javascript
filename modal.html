@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!--StyleSheet-->
+    <link rel="stylesheet" href="./modal.css" />
+    <title>Modal</title>
+</head>
+<body>
+    <div class="container">
+        <div class="content">
+            <h2>Modal Project</h2>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum semper libero ultricies rhoncus sodales. Mauris in maximus est, quis volutpat est. Sed egestas interdum tellus a sodales. In sit amet quam in ex fringilla feugiat sit amet vel lorem. Ut eget tristique elit.</p>
+            <button id="modal-open">Open Modal</button>
+        </div>
+    </div>
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal-box" id="modal-box">
+            <span id="modal-close" class="modal-close"></span>
+            <div class="modal-heading">
+                <h2>Here's The Modal</h2>
+            </div>
+            <div class="modal-body">
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum semper libero ultricies rhoncus sodales. Mauris in maximus est, quis volutpat est. Sed egestas interdum tellus a sodales. In sit amet quam in ex fringilla feugiat sit amet vel lorem. Ut eget tristique elit.</p>
+            </div>
+            <form action="/" class="modal-form">
+                <input type="email" placeholder="Email">
+                <button>subscribe</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="./modal.js"></script>
+</body>
+</html>

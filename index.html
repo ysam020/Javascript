@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 user-scalable= no">
+    <!--CSS Style Sheet-->
+    <link rel="stylesheet" href="./index.css" />
+    <!--Font Awesome Icon-->
+    <script src="https://kit.fontawesome.com/c3c0452e9a.js" crossorigin="anonymous"></script>
+    <title>Home</title>
+</head>
+<body>
+    <div class="container">
+        <!--Navigation Menu-->
+        <div class="nav">
+            <div class="nav-items" style="position: sticky;">
+                <div class="nav-brand-link">
+                    <a href="#project-1"><img src="./brand-logo.png" alt="brand-logo" style = "width:100%;"></a>
+                    <h1>Javascript Projects</h1>
+                </div>
+            </div>
+            <div class="nav-items">
+                <div class="nav-item-link">
+                    <a href="#project-1">PROJECT 1: Random Hex Generator</a>
+                </div>
+                <hr />
+            </div>
+            <div class="nav-items">
+                <div class="nav-item-link">
+                    <a href="#project-2">PROJECT 2: Counter</a>
+                </div>
+                <hr />
+            </div>
+            <div class="nav-items">
+                <div class="nav-item-link">
+                    <a href="#project-3">PROJECT 3: Image Carousel</a>
+                </div>
+                <hr />
+            </div>
+            <div class="nav-items">
+                <div class="nav-item-link">
+                    <a href="#project-4">PROJECT 4: Form Validation</a>
+                </div>
+                <hr />
+            </div>
+            <div class="nav-items">
+                <div class="nav-item-link">
+                    <a href="#project-5">PROJECT 5: Accordion</a>
+                </div>
+                <hr />
+            </div>
+            <div class="nav-items">
+                <div class="nav-item-link">
+                    <a href="#project-6">PROJECT 6: Modal</a>
+                </div>
+                <hr />
+            </div>
+            <div class="nav-items">
+                <div class="nav-item-link">
+                    <a href="#project-7">PROJECT 7: Lorem Ipsum Generator</a>
+                </div>
+                <hr />
+            </div>
+            <div class="nav-items">
+                <div class="nav-item-link">
+                    <a href="#project-8">PROJECT 8: Analogue Clock</a>
+                </div>
+                <hr />
+            </div>
+            <div class="nav-items">
+                <div class="nav-item-link">
+                    <a href="#project-9">PROJECT 9: Calculator</a>
+                </div>
+                <hr />
+            </div>
+            <div class="nav-items">
+                <div class="nav-item-link">
+                    <a href="#project-10">PROJECT 10: To Do List</a>
+                </div>
+                <hr />
+            </div>
+            <div class="nav-items">
+                <div class="nav-item-link">
+                    <a href="#project-11">PROJECT 11: BMI Calculator</a>
+                </div>
+                <hr />
+            </div>
+            <div class="nav-items">
+                <div class="nav-item-link">
+                    <a href="#project-12">PROJECT 12: Testimonials</a>
+                </div>
+            </div>
+        </div>
+
+        <!--Navigation Mobile-->
+        <div class="nav-mobile">
+            <div class="nav-mobile-brand">
+                <a href="#project-1"><img src="./brand-logo.png" alt="brand-logo" class="brand-logo"></a>
+                <h1>Javascript Projects</h1>
+            </div>
+            <div class="nav-mobile-icon">
+                <a href="#" onclick="toggle()"><i class="fa-solid fa-bars" style="color:white; font-size: 25px; margin: 3vh 3vw; float: right;"></i></a>
+                <a href="#" onclick="toggle()"><i class="fa-solid fa-xmark" style="color:white; font-size: 25px; margin: 3vh 3vw; float: right; position: absolute;"></i></a>
+            </div>
+        </div>
+
+        <div class="mobile-menu">
+            <div class="nav-items-mobile">
+                <div class="nav-item-mobile-link">
+                    <a href="#project-1" onclick="navMobile()">PROJECT 1: Random Hex Generator</a>
+                </div>
+                <hr />
+            </div>
+            <div class="nav-items-mobile">
+                <div class="nav-item-mobile-link">
+                    <a href="#project-2" onclick="navMobile()">PROJECT 2: Counter</a>
+                </div>
+                <hr />
+            </div>
+            <div class="nav-items-mobile">
+                <div class="nav-item-mobile-link">
+                    <a href="#project-3" onclick="navMobile()">PROJECT 3: Image Carousel</a>
+                </div>
+                <hr />
+            </div>
+            <div class="nav-items-mobile">
+                <div class="nav-item-mobile-link">
+                    <a href="#project-4" onclick="navMobile()">PROJECT 4: Form Validation</a>
+                </div>
+                <hr />
+            </div>
+            <div class="nav-items-mobile">
+                <div class="nav-item-mobile-link">
+                    <a href="#project-5" onclick="navMobile()">PROJECT 5: Accordion</a>
+                </div>
+                <hr />
+            </div>
+            <div class="nav-items-mobile">
+                <div class="nav-item-mobile-link">
+                    <a href="#project-6" onclick="navMobile()">PROJECT 6: Modal</a>
+                </div>
+                <hr />
+            </div>
+            <div class="nav-items-mobile">
+                <div class="nav-item-mobile-link">
+                    <a href="#project-7" onclick="navMobile()">PROJECT 7: Lorem Ipsum Generator</a>
+                </div>
+                <hr />
+            </div>
+            <div class="nav-items-mobile">
+                <div class="nav-item-mobile-link">
+                    <a href="#project-8" onclick="navMobile()">PROJECT 8: Analogue Clock</a>
+                </div>
+                <hr />
+            </div>
+            <div class="nav-items-mobile">
+                <div class="nav-item-mobile-link">
+                    <a href="#project-9" onclick="navMobile()">PROJECT 9: Calculator</a>
+                </div>
+                <hr />
+            </div>
+            <div class="nav-items-mobile">
+                <div class="nav-item-mobile-link">
+                    <a href="#project-10" onclick="navMobile()">PROJECT 10: To Do List</a>
+                </div>
+                <hr />
+            </div>
+            <div class="nav-items-mobile">
+                <div class="nav-item-mobile-link">
+                    <a href="#project-11" onclick="navMobile()">PROJECT 11: BMI Calculator</a>
+                </div>
+                <hr />
+            </div>
+            <div class="nav-items-mobile">
+                <div class="nav-item-mobile-link">
+                    <a href="#project-11" onclick="navMobile()">PROJECT 12: Testimonials</a>
+                </div>
+                <hr />
+            </div>
+        </div>
+
+        <!--Content-->
+        <div class="content">
+            <div id="project-1" class="project">
+                <div class="project-wrap">
+                    <h1>PROJECT 1: Random Hex Color Generator</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum tristique semper. Aenean lorem turpis, semper eget dapibus sed, iaculis sit amet orci. Vestibulum non interdum tellus, id tincidunt sapien. Vestibulum sagittis, nunc et pulvinar efficitur, urna nunc dapibus tortor, sit amet varius leo metus id eros. Pellentesque quis leo tempus, faucibus nisl id, lobortis massa. Morbi orci libero, bibendum vitae sapien non, feugiat tincidunt turpis.
+                    </p>
+                    <button class="project-btn" id="project-1-btn" onclick="window.open('./random-hex.html','_blank')">Go To Project</button>
+                </div>
+            </div>
+
+            <div id="project-2" class="project">
+                <div class="project-wrap">
+                    <h1>PROJECT 2: Counter</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum tristique semper. Aenean lorem turpis, semper eget dapibus sed, iaculis sit amet orci. Vestibulum non interdum tellus, id tincidunt sapien. Vestibulum sagittis, nunc et pulvinar efficitur, urna nunc dapibus tortor, sit amet varius leo metus id eros. Pellentesque quis leo tempus, faucibus nisl id, lobortis massa. Morbi orci libero, bibendum vitae sapien non, feugiat tincidunt turpis.
+                    </p>
+                    <button class="project-btn" id="project-2-btn" onclick="window.open('./Javascript/counter.html','_blank')">Go To Project</button>
+                </div>
+            </div>
+
+            <div id="project-3" class="project">
+                <div class="project-wrap">
+                    <h1>PROJECT 3: Image Carousel</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum tristique semper. Aenean lorem turpis, semper eget dapibus sed, iaculis sit amet orci. Vestibulum non interdum tellus, id tincidunt sapien. Vestibulum sagittis, nunc et pulvinar efficitur, urna nunc dapibus tortor, sit amet varius leo metus id eros. Pellentesque quis leo tempus, faucibus nisl id, lobortis massa. Morbi orci libero, bibendum vitae sapien non, feugiat tincidunt turpis.
+                    </p>
+                    <button class="project-btn" id="project-3-btn" onclick="window.open('./Javascript/image-carousel.html','_blank')">Go To Project</button>
+                </div>
+            </div>
+
+            <div id="project-4" class="project">
+                <div class="project-wrap">
+                    <h1>PROJECT 4: Form Validation</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum tristique semper. Aenean lorem turpis, semper eget dapibus sed, iaculis sit amet orci. Vestibulum non interdum tellus, id tincidunt sapien. Vestibulum sagittis, nunc et pulvinar efficitur, urna nunc dapibus tortor, sit amet varius leo metus id eros. Pellentesque quis leo tempus, faucibus nisl id, lobortis massa. Morbi orci libero, bibendum vitae sapien non, feugiat tincidunt turpis.
+                    </p>
+                    <button class="project-btn" id="project-4-btn" onclick="window.open('./Javascript/form-validation.html','_blank')">Go To Project</button>
+                </div>
+            </div>
+
+            <div id="project-5" class="project">
+                <div class="project-wrap">
+                    <h1>PROJECT 5: Accordion</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum tristique semper. Aenean lorem turpis, semper eget dapibus sed, iaculis sit amet orci. Vestibulum non interdum tellus, id tincidunt sapien. Vestibulum sagittis, nunc et pulvinar efficitur, urna nunc dapibus tortor, sit amet varius leo metus id eros. Pellentesque quis leo tempus, faucibus nisl id, lobortis massa. Morbi orci libero, bibendum vitae sapien non, feugiat tincidunt turpis.
+                    </p>
+                    <button class="project-btn" id="project-5-btn" onclick="window.open('./Javascript/accordion.html','_blank')">Go To Project</button>
+                </div>
+            </div>
+
+            <div id="project-6" class="project">
+                <div class="project-wrap">
+                    <h1>PROJECT 6: Modal</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum tristique semper. Aenean lorem turpis, semper eget dapibus sed, iaculis sit amet orci. Vestibulum non interdum tellus, id tincidunt sapien. Vestibulum sagittis, nunc et pulvinar efficitur, urna nunc dapibus tortor, sit amet varius leo metus id eros. Pellentesque quis leo tempus, faucibus nisl id, lobortis massa. Morbi orci libero, bibendum vitae sapien non, feugiat tincidunt turpis.
+                    </p>
+                    <button class="project-btn" id="project-6-btn" onclick="window.open('./Javascript/modal.html','_blank')">Go To Project</button>
+                </div>
+            </div>
+
+            <div id="project-7" class="project">
+                <div class="project-wrap">
+                    <h1>PROJECT 7: Lorem Ipsum Generator</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum tristique semper. Aenean lorem turpis, semper eget dapibus sed, iaculis sit amet orci. Vestibulum non interdum tellus, id tincidunt sapien. Vestibulum sagittis, nunc et pulvinar efficitur, urna nunc dapibus tortor, sit amet varius leo metus id eros. Pellentesque quis leo tempus, faucibus nisl id, lobortis massa. Morbi orci libero, bibendum vitae sapien non, feugiat tincidunt turpis.
+                    </p>
+                    <button class="project-btn" id="project-7-btn" onclick="window.open('./Javascript/loremipsum.html','_blank')">Go To Project</button>
+                </div>
+            </div>
+
+            <div id="project-8" class="project">
+                <div class="project-wrap">
+                    <h1>PROJECT 8: Analogue Clock</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum tristique semper. Aenean lorem turpis, semper eget dapibus sed, iaculis sit amet orci. Vestibulum non interdum tellus, id tincidunt sapien. Vestibulum sagittis, nunc et pulvinar efficitur, urna nunc dapibus tortor, sit amet varius leo metus id eros. Pellentesque quis leo tempus, faucibus nisl id, lobortis massa. Morbi orci libero, bibendum vitae sapien non, feugiat tincidunt turpis.
+                    </p>
+                    <button class="project-btn" id="project-8-btn" onclick="window.open('./Javascript/analogue-clock.html','_blank')">Go To Project</button>
+                </div>
+            </div>
+
+            <div id="project-9" class="project">
+                <div class="project-wrap">
+                    <h1>PROJECT 9: Calculator</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum tristique semper. Aenean lorem turpis, semper eget dapibus sed, iaculis sit amet orci. Vestibulum non interdum tellus, id tincidunt sapien. Vestibulum sagittis, nunc et pulvinar efficitur, urna nunc dapibus tortor, sit amet varius leo metus id eros. Pellentesque quis leo tempus, faucibus nisl id, lobortis massa. Morbi orci libero, bibendum vitae sapien non, feugiat tincidunt turpis.
+                    </p>
+                    <button class="project-btn" id="project-9-btn" onclick="window.open('./Javascript/calculator.html','_blank')">Go To Project</button>
+                </div>
+            </div>
+
+            <div id="project-10" class="project">
+                <div class="project-wrap">
+                    <h1>PROJECT 10 : To Do List</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum tristique semper. Aenean lorem turpis, semper eget dapibus sed, iaculis sit amet orci. Vestibulum non interdum tellus, id tincidunt sapien. Vestibulum sagittis, nunc et pulvinar efficitur, urna nunc dapibus tortor, sit amet varius leo metus id eros. Pellentesque quis leo tempus, faucibus nisl id, lobortis massa. Morbi orci libero, bibendum vitae sapien non, feugiat tincidunt turpis.
+                    </p>
+                    <button class="project-btn" id="project-10-btn" onclick="window.open('./Javascript/todo.html','_blank')">Go To Project</button>
+                </div>
+            </div>
+
+            <div id="project-11" class="project">
+                <div class="project-wrap">
+                    <h1>PROJECT 11 : BMI Calculator</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum tristique semper. Aenean lorem turpis, semper eget dapibus sed, iaculis sit amet orci. Vestibulum non interdum tellus, id tincidunt sapien. Vestibulum sagittis, nunc et pulvinar efficitur, urna nunc dapibus tortor, sit amet varius leo metus id eros. Pellentesque quis leo tempus, faucibus nisl id, lobortis massa. Morbi orci libero, bibendum vitae sapien non, feugiat tincidunt turpis.
+                    </p>
+                    <button class="project-btn" id="project-11-btn" onclick="window.open('./Javascript/bmi.html','_blank')">Go To Project</button>
+                </div>
+            </div>
+
+            <div id="project-12" class="project">
+                <div class="project-wrap">
+                    <h1>PROJECT 12 : Testimonials</h1>
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Etiam fermentum tristique semper. Aenean lorem turpis, semper eget dapibus sed, iaculis sit amet orci. Vestibulum non interdum tellus, id tincidunt sapien. Vestibulum sagittis, nunc et pulvinar efficitur, urna nunc dapibus tortor, sit amet varius leo metus id eros. Pellentesque quis leo tempus, faucibus nisl id, lobortis massa. Morbi orci libero, bibendum vitae sapien non, feugiat tincidunt turpis.
+                    </p>
+                    <button class="project-btn" id="project-12-btn" onclick="window.open('./Javascript/testimonials.html','_blank')">Go To Project</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <script src="./index.js"></script>
+</body>
+</html>

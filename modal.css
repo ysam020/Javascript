@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    font-family: Helvetica;
+}
+
+body{
+    background-color: #554994;
+}
+
+.container{
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+    align-items: center;
+}
+
+.content{
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 2px 4px 15px 2px rgba(0,0,0,.3);
+    border-radius: 10px;
+    padding: 50px;
+    background-color: whitesmoke;
+}
+
+.content h2, .modal-box h2{
+    font-size: 25px;
+    text-transform: uppercase;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+    margin-bottom: 20px;
+}
+
+.content p, .modal-box p{
+    font-size: 18px;
+    line-height: 1.5em;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+}
+
+.content button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    box-shadow: 2px 4px 15px 2px rgba(0,0,0,.3);
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 200;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+    border: none;
+    color: white;
+    background-color: #483a8f;
+    
+}
+
+.modal-overlay{
+    position: fixed;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100vw;
+    background-color: rgba(0,0,0,.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: opacity .3s;
+    /* display: none; */
+    opacity: 0;
+    pointer-events: none;
+}
+
+.modal-box{
+    background-color: whitesmoke;
+    width: 70%;
+    margin: 0 auto;
+    box-shadow: 2px 4px 15px 2px rgba(0,0,0,.3);
+    border-radius: 10px;
+    padding: 50px;
+    position: relative;
+}
+
+.modal-box span{
+    background-color: #efefef;
+}
+
+.modal-box span::before{
+    content: 'X';
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 400;
+    background-color: #e9dfdf;
+    border-radius: 1000px;
+}
+
+.modal-form{
+    display: flex;
+}
+
+.modal-form input{
+    flex: 3;
+    border-radius: 5px 0 0 5px;
+}
+
+.modal-form input::placeholder{
+    padding: 0 20px;
+}
+
+.modal-box button{
+    flex: 1;
+    padding: 10px 20px;
+    border-radius: 0 5px 5px 0;
+    box-shadow: 2px 4px 15px 2px rgba(0,0,0,.3);
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 1.5em;
+    letter-spacing: 2px;
+    border: none;  
+    color: white; 
+    background-color: #483a8f; 
+    font-weight: 200;
+}
